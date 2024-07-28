@@ -1,0 +1,10 @@
+@model JacobView
+@{
+    ViewData["Title"] = "jacobwozere";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about @Model.Name who is @Model.Age years old.</p>
+    <form asp-action="Age"><button class="btn btn-default">Click to post</button></form>
+</div>
